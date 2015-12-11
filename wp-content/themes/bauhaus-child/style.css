@@ -1,0 +1,35 @@
+.contentLeft {
+    width: 100%;
+    padding-top: 150px;
+}
+
+.timeline .dates a {
+    color: #fff;
+}
+
+.timeline {
+    width: 1200px !important;
+
+}
+
+.timeline .issues li img {
+    width: 600px !important;
+    transition: all 0.3s ease-in-out 0s !important;
+}
+
+.timeline {
+    height: 550px !important;
+}
+
+.singlePost p {
+    margin-top: 15px !important;
+}
+
+.timeline .dates .selected {
+    margin-top: -5px !important;
+    border: none !important;
+}
+
+.timeline .dates li {
+    height: 56px !important;
+}
