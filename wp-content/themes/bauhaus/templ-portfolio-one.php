@@ -80,7 +80,7 @@ get_header(); ?>
 				}
             }
 
-			$sOutput .=	'<a href="' . esc_url( get_the_permalink( get_the_ID() ) ) . '" class="portfolioItemV1 portfolio_item'. sanitize_html_class($sSlugs) .'">';
+			$sOutput .=	'<a href="' . esc_url( get_the_permalink( get_the_ID() ) ) . '" class="portfolioItemV1 portfolio_item '. sanitize_html_class($sSlugs) .'">';
                         if ( has_post_thumbnail() ) {
                             $sOutput .= get_the_post_thumbnail( get_the_ID(), 'unithumb-portfolioone', array( 'alt' => the_title_attribute('echo=0') ) );
                         } else {
